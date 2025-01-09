@@ -53,7 +53,7 @@ $(document).ready(function () {
         ]);
 
         var options = {
-            title: 'My Daily Activities'
+            title: 'Technologies out of 10'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
