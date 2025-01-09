@@ -32,32 +32,4 @@ $(document).ready(function () {
         $('#main .col-md-11 #projects-section').siblings().hide();
         $('#main .col-md-11 #projects-section').slideDown('slow');
     });
-
-    google.charts.load('current', { 'packages': ['corechart'] });
-    google.charts.setOnLoadCallback(drawChart);
-
-    function drawChart() {
-
-        var data = google.visualization.arrayToDataTable([
-            ['Technologies', 'Out of 10'],
-            ['Html', 7.5],
-            ['Css', 7.5],
-            ['Javascript', 7],
-            ['Jquery', 7.5],
-            ['Bootstrap', 8],
-            ['React', 4],
-            ['MUI', 4],
-            ['Wordpress', 7.5],
-            ['PHP', 7.5],
-            ['Mysql', 6.5],
-        ]);
-
-        var options = {
-            title: 'Technologies'
-        };
-
-        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
-
-        chart.draw(data, options);
-    }
 });
