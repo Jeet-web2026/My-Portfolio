@@ -53,7 +53,7 @@ $(document).ready(function () {
         ]);
 
         var options = {
-            title: 'Technologies out of 10'
+            title: 'Technologies'
         };
 
         var chart = new google.visualization.PieChart(document.getElementById('piechart'));
