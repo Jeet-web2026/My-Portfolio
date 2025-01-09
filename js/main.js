@@ -1,3 +1,5 @@
+$('#loader').hide();
+
 $(document).ready(function () {
     $('#main .navigation-btns a').eq(0).addClass('bg-black text-light');
     $('#main .navigation-btns a').on('click', function () {
@@ -10,5 +12,6 @@ $(document).ready(function () {
     $('#main .contact-info ul a').on('mouseleave', function(){
         $(this).addClass('text-black') && $(this).removeClass('text-secondary');
     });
+    $('#loader').slideDown();
     
 });

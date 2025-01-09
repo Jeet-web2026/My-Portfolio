@@ -56,13 +56,19 @@ a {
 /* @main content start */
 
 body #loader{
-    height: 50vh;
+    height: 80vh;
     width: 100%;
     background-color: #111;
     z-index: 100;
     position: absolute;
-    top: 0%;
 
+}
+
+.top{
+    top: 0%;
+}
+.bottom{
+    bottom: 100%;
 }
 
 /* @index pages css start */
@@ -70,6 +76,7 @@ body #loader{
     height: 100vh;
     width: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 #main .navigation-btns{
