@@ -39,7 +39,7 @@ $(document).ready(function () {
     function drawChart() {
 
         var data = google.visualization.arrayToDataTable([
-            ['Technologies', 'out of 10'],
+            ['Technologies', 'Out of 10'],
             ['Html', 7.5],
             ['Css', 7.5],
             ['Javascript', 7],
