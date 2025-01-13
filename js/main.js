@@ -32,4 +32,13 @@ $(document).ready(function () {
         $('#main .col-md-11 #projects-section').siblings().hide();
         $('#main .col-md-11 #projects-section').slideDown('slow');
     });
+
+    let HideContactInfo = $('#skills-enter, #experience-enter, #projects-enter, #education-enter');
+    let ShowContactInfo = $('#about-enter');
+    HideContactInfo.on('click', function(){
+        $('main .contact-info').hide();
+    });
+    ShowContactInfo.on('click', function(){
+        $('main .contact-info').fadeIn();
+    });
 });
