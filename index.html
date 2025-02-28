@@ -1,741 +1,511 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hi! I am Jit Nath (Junior Web Developer from Kolkata)</title>
 
     <!-- Portfolio logo -->
-    <link
-      rel="shortcut icon"
-      href="images/portfolio-logo.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="images/portfolio-logo.png" type="image/x-icon" />
 
     <!-- Portfolio - All links start -->
 
     <!-- @bootstrap css -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
     <!-- @google fonts link (figtree) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet" />
 
     <!-- @google fonts link (montserrat) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
 
     <!-- @fontawesome link -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- @custom css link -->
     <link rel="stylesheet" href="css/styling.css" />
 
     <!-- Portfolio - All links end -->
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- loader -->
     <div id="loader"></div>
     <!-- loader -->
     <main id="main">
-      <div class="container-fluid px-0 h-100">
-        <div class="row h-100 navigation-work">
-          <div class="col-md-1 h-100">
-            <div
-              class="card h-100 no-radius border-0 shadow d-flex justify-content-center align-items-center"
-            >
-              <div class="card-body w-100 px-0">
-                <h2
-                  class="text-uppercase text-center fw-bold font-one text-black mt-3"
-                >
-                  jn
-                </h2>
-                <div class="navigation-btns">
-                  <a
-                    id="about-enter"
-                    href="javascript:void(0)"
-                    class="btn border-0 py-4 no-radius shadow-none w-100"
-                    style="font-size: 3.5vh"
-                    ><i class="fa-solid fa-arrow-pointer"></i
-                  ></a>
-                  <a
-                    id="skills-enter"
-                    href="javascript:void(0)"
-                    class="btn border-0 py-4 no-radius shadow-none w-100"
-                    style="font-size: 3.5vh"
-                    ><i class="fa-solid fa-user-tie"></i
-                  ></a>
-                  <a
-                    id="experience-enter"
-                    href="javascript:void(0)"
-                    class="btn border-0 py-4 no-radius shadow-none w-100"
-                    style="font-size: 3.5vh"
-                    ><i class="fa-solid fa-briefcase"></i
-                  ></a>
-                  <a
-                    id="projects-enter"
-                    href="javascript:void(0)"
-                    class="btn border-0 py-4 no-radius shadow-none w-100"
-                    style="font-size: 3.5vh"
-                    ><i class="fa-solid fa-code"></i
-                  ></a>
-                  <a
-                    id="education-enter"
-                    href="javascript:void(0)"
-                    class="btn border-0 py-4 no-radius shadow-none w-100"
-                    style="font-size: 3.5vh"
-                    ><i class="fa-solid fa-graduation-cap"></i
-                  ></a>
+        <div class="container-fluid px-0 h-100">
+            <div class="row h-100 navigation-work">
+                <div class="col-md-1 h-100">
+                    <div class="card h-100 no-radius border-0 shadow d-flex justify-content-center align-items-center">
+                        <div class="card-body w-100 px-0">
+                            <h2 class="text-uppercase text-center fw-bold font-one text-black mt-3">
+                                jn
+                            </h2>
+                            <div class="navigation-btns">
+                                <a id="about-enter" href="javascript:void(0)"
+                                    class="btn border-0 py-4 no-radius shadow-none w-100" style="font-size: 3.5vh"><i
+                                        class="fa-solid fa-arrow-pointer"></i></a>
+                                <a id="skills-enter" href="javascript:void(0)"
+                                    class="btn border-0 py-4 no-radius shadow-none w-100" style="font-size: 3.5vh"><i
+                                        class="fa-solid fa-user-tie"></i></a>
+                                <a id="experience-enter" href="javascript:void(0)"
+                                    class="btn border-0 py-4 no-radius shadow-none w-100" style="font-size: 3.5vh"><i
+                                        class="fa-solid fa-briefcase"></i></a>
+                                <a id="projects-enter" href="javascript:void(0)"
+                                    class="btn border-0 py-4 no-radius shadow-none w-100" style="font-size: 3.5vh"><i
+                                        class="fa-solid fa-code"></i></a>
+                                <a id="education-enter" href="javascript:void(0)"
+                                    class="btn border-0 py-4 no-radius shadow-none w-100" style="font-size: 3.5vh"><i
+                                        class="fa-solid fa-graduation-cap"></i></a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-11">
-            <div id="about-section">
-              <div class="row p-5">
-                <div class="col-md-6 ps-3">
-                  <h3
-                    class="text-uppercase text-black montserrat fn-500"
-                    style="font-size: 4vh"
-                  >
-                    about
-                  </h3>
-                  <div
-                    class="bg-secondary"
-                    style="height: 0.2vh; width: 6.8vw"
-                  ></div>
-                  <div style="margin-top: 15vh">
-                    <h1
-                      class="text-secondary montserrat text-uppercase"
-                      style="font-size: 10vh; letter-spacing: 1vh"
-                    >
-                      Jit
-                    </h1>
-                    <h1
-                      class="text-black fw-bold montserrat text-uppercase"
-                      style="font-size: 10vh; letter-spacing: 1vh"
-                    >
-                      Nath
-                    </h1>
-                    <p
-                      class="text-uppercase text-secondary fn-500"
-                      style="
+                <div class="col-md-11">
+                    <div id="about-section">
+                        <div class="row p-5">
+                            <div class="col-md-6 ps-3">
+                                <h3 class="text-uppercase text-black montserrat fn-500" style="font-size: 4vh">
+                                    about
+                                </h3>
+                                <div class="bg-secondary" style="height: 0.2vh; width: 6.8vw"></div>
+                                <div style="margin-top: 15vh">
+                                    <h1 class="text-secondary montserrat text-uppercase"
+                                        style="font-size: 10vh; letter-spacing: 1vh">
+                                        Jit
+                                    </h1>
+                                    <h1 class="text-black fw-bold montserrat text-uppercase"
+                                        style="font-size: 10vh; letter-spacing: 1vh">
+                                        Nath
+                                    </h1>
+                                    <p class="text-uppercase text-secondary fn-500" style="
                         font-size: 2.5vh;
                         letter-spacing: 0.9vh;
                         word-spacing: 1vh;
-                      "
-                    >
-                      Web developer
-                    </p>
-                    <p
-                      class="text-uppercase text-black mt-5"
-                      style="font-size: 2vh"
-                    >
-                      <b class="fs-4">I'm a web developer</b> with 8+ months of
-                      professional experience and 1.5 years of learning. I
-                      specialize in front-end development, skilled in HTML, CSS,
-                      JavaScript, jQuery, Bootstrap, as well as PHP, MySQL,
-                      React, WordPress, and Ajax. I'm also proficient in Git and
-                      GitHub for version control.
-                    </p>
-                    <p
-                      class="text-uppercase text-black mt-3"
-                      style="font-size: 2vh"
-                    >
-                      I'm passionate about building responsive, user-friendly
-                      web applications and always looking for opportunities to
-                      grow my skills.
-                    </p>
-                  </div>
+                      ">
+                                        Web developer
+                                    </p>
+                                    <p class="text-uppercase text-black mt-5" style="font-size: 2vh">
+                                        <b class="fs-4">I'm a web developer</b> with 8+ months of
+                                        professional experience and 1.5 years of learning. I
+                                        specialize in front-end development, skilled in HTML, CSS,
+                                        JavaScript, jQuery, Bootstrap, as well as PHP, MySQL,
+                                        React, WordPress, and Ajax. I'm also proficient in Git and
+                                        GitHub for version control.
+                                    </p>
+                                    <p class="text-uppercase text-black mt-3" style="font-size: 2vh">
+                                        I'm passionate about building responsive, user-friendly
+                                        web applications and always looking for opportunities to
+                                        grow my skills.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pe-5 position-relative">
+                                <div class="d-flex justify-content-end align-items-center">
+                                    <a href="mailto:jeetnath2110@gmail.com" class="text-black me-3 fn-500"
+                                        style="font-size: 2vh"><i class="fa-solid fa-envelope-open me-2"></i>Email:
+                                        jeetnath2110@gmail.com</a>
+                                    <a href="tel:+91 9163715179" class="text-black fn-500" style="font-size: 2vh"><i
+                                            class="fa-solid fa-mobile-screen me-2"></i>Call: +91
+                                        9163715179</a>
+                                </div>
+                                <div class="d-flex justify-content-center align-items-center" style="margin-top: 15vh">
+                                    <img src="images/freepik__background__1833.png" alt="content-image"
+                                        class="content-image rounded-circle p-3" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="skills-section" class="ps-3">
+                        <div class="row p-5 align-items-center">
+                            <div class="col-md-12" style="margin-bottom: 3vh">
+                                <h3 class="text-uppercase text-black montserrat fn-500" style="font-size: 4vh">
+                                    skills
+                                </h3>
+                                <div class="bg-secondary" style="height: 0.2vh; width: 6.8vw"></div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card me-3 rounded shadow border-0">
+                                    <div class="card-body">
+                                        <h5 class="text-capitalize mb-3 fw-bold" style="font-size: 2.8vh">
+                                            frontend:
+                                        </h5>
+                                        <h5 class="text-capitalize mt-2 mb-3" style="font-size: 2.5vh">
+                                            Html, css, javascript, jquery, bootstrap, react(basic),
+                                            material design
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card me-3 rounded shadow border-0">
+                                    <div class="card-body">
+                                        <h5 class="text-capitalize mb-3 fw-bold" style="font-size: 2.8vh">
+                                            backend:
+                                        </h5>
+                                        <h5 class="text-capitalize mt-2 mb-3" style="font-size: 2.5vh">
+                                            PHP, laravel & wordpress development <br />(theme &
+                                            plugin development)
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card rounded shadow border-0">
+                                    <div class="card-body">
+                                        <h5 class="text-capitalize mb-3 fw-bold" style="font-size: 2.8vh">
+                                            database:
+                                        </h5>
+                                        <h5 class="text-capitalize mt-2 mb-3" style="font-size: 2.5vh">
+                                            sql database <br />(mysql)
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card mt-3 rounded shadow border-0 py-2">
+                                    <div class="card-body">
+                                        <h5 class="text-capitalize mb-3 fw-bold" style="font-size: 2.8vh">
+                                            additional tools & Technologies:
+                                        </h5>
+                                        <h5 class="text-capitalize mt-2 mb-3" style="font-size: 2.5vh">
+                                            ajax, OOPS, REST API, Json, dynamic programming,
+                                            wordpress (elementor, woocomerce & divi)
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card mt-3 rounded shadow border-0 py-2">
+                                    <div class="card-body">
+                                        <h5 class="text-capitalize mb-3 fw-bold" style="font-size: 2.8vh">
+                                            certifications:
+                                        </h5>
+                                        <h5 class="my-2" style="font-size: 2.5vh">
+                                            Introduction to backend development<a
+                                                href="https://www.coursera.org/account/accomplishments/verify/8EU3Q9X69CQP?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"
+                                                target="_blank" class="ms-2"><i class="fa-solid fa-link"></i></a>
+                                        </h5>
+                                        <h5 class="my-2" style="font-size: 2.5vh">
+                                            The complete web developer course 3.0<a
+                                                href="https://www.coursera.org/account/accomplishments/verify/8EU3Q9X69CQP?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"
+                                                target="_blank" class="ms-2"><i class="fa-solid fa-link"></i></a>
+                                        </h5>
+                                        <h5 class="my-2" style="font-size: 2.5vh">
+                                            Amazon junior software developer course<a href="" class="ms-2"><i
+                                                    class="fa-solid fa-link"></i></a>
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="card mt-3 rounded shadow border-0 py-2">
+                                    <div class="card-body">
+                                        <h5 class="text-capitalize mb-3 fw-bold" style="font-size: 2.8vh">
+                                            more about me:
+                                        </h5>
+                                        <h5 class="mt-2 mb-3" style="font-size: 2.5vh">
+                                            I’m passionate about building responsive, user-friendly
+                                            web applications and always looking for opportunities to
+                                            grow my skills. If you’re looking for a motivated
+                                            developer with a strong foundation and a willingness to
+                                            learn, I’d love to connect and discuss how I can
+                                            contribute to your team.
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="experience-section" class="ps-3">
+                        <div class="row p-5">
+                            <div class="col-md-12 mb-4">
+                                <h3 class="text-uppercase text-black montserrat fn-500" style="font-size: 4vh">
+                                    experiences
+                                </h3>
+                                <div class="bg-secondary" style="height: 0.2vh; width: 14vw"></div>
+                            </div>
+                            <div class="col-md-6 pe-3 pb-3 mt-3">
+                                <div class="card rounded shadow border-0">
+                                    <div class="card-body">
+                                        <h2 class="text-capitalize fw-bold text-black" style="font-size: 3vh">
+                                            junior web developer
+                                        </h2>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="text-capitalize fn-500 text-black" style="font-size: 2vh">
+                                                DIGITYX Incorporated
+                                            </p>
+                                            <p class="text-capitalize" style="font-size: 2vh">
+                                                Oct 2024 - Present
+                                            </p>
+                                        </div>
+                                        <div class="mt-3">
+                                            <ul class="ps-0">
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Design and develop
+                                                    responsive web applications.
+                                                </li>
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Develop responsive
+                                                    navigation systems.
+                                                </li>
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Maintain and update
+                                                    existing codebase.
+                                                </li>
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Collaborate with
+                                                    product and support teams.
+                                                </li>
+                                                <li class="text-capitalize" style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Refactor outdated
+                                                    code.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pe-3 mt-3">
+                                <div class="card rounded shadow border-0">
+                                    <div class="card-body">
+                                        <h2 class="text-capitalize fw-bold text-black" style="font-size: 3vh">
+                                            frontend developer intern
+                                        </h2>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="text-capitalize fn-500 text-black" style="font-size: 2vh">
+                                                DIGITYX Incorporated
+                                            </p>
+                                            <p class="text-capitalize" style="font-size: 2vh">
+                                                May 2024 - Oct 2024
+                                            </p>
+                                        </div>
+                                        <div class="mt-3">
+                                            <ul class="ps-0">
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Design and develop
+                                                    responsive websites.
+                                                </li>
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Maintain and optimize
+                                                    the frontend base code
+                                                </li>
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Collaborate with the
+                                                    design team.
+                                                </li>
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Ensure responsive
+                                                    design principles.
+                                                </li>
+                                                <li class="text-capitalize" style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Ensure the frontend
+                                                    codebase remains up-to-date.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pe-3">
+                                <div class="card rounded shadow border-0">
+                                    <div class="card-body">
+                                        <h2 class="text-capitalize fw-bold text-black" style="font-size: 3vh">
+                                            administrative executive
+                                        </h2>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="text-capitalize fn-500 text-black" style="font-size: 2vh">
+                                                Solution agency
+                                            </p>
+                                            <p class="text-capitalize" style="font-size: 2vh">
+                                                mar 2023 - apr 2024
+                                            </p>
+                                        </div>
+                                        <div class="mt-3">
+                                            <ul class="ps-0">
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Ensure the proper
+                                                    filing of sensitive financial
+                                                    documents.
+                                                </li>
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Track
+                                                    and document bank-related transactions.
+                                                </li>
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Provide
+                                                    administrative support.
+                                                </li>
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Manage office
+                                                    supplies.
+                                                </li>
+                                                <li class="text-capitalize" style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Help
+                                                    organize office-wide communications.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 pe-3">
+                                <div class="card rounded shadow border-0">
+                                    <div class="card-body">
+                                        <h2 class="text-capitalize fw-bold text-black" style="font-size: 3vh">
+                                            Administrative Assistants
+                                        </h2>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="text-capitalize fn-500 text-black" style="font-size: 2vh">
+                                                Solomon advisory
+                                            </p>
+                                            <p class="text-capitalize" style="font-size: 2vh">
+                                                nov 2022 - mar 2023
+                                            </p>
+                                        </div>
+                                        <div class="mt-3">
+                                            <ul class="ps-0">
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Provide
+                                                    administrative support.
+                                                </li>
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Handle incoming phone
+                                                    calls and emails.
+                                                </li>
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Manage office
+                                                    supplies and inventory.
+                                                </li>
+                                                <li class="text-capitalize mb-1"
+                                                    style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Maintain filing
+                                                    systems.
+                                                </li>
+                                                <li class="text-capitalize" style="font-size: 2vh; list-style: none">
+                                                    <i class="fa-regular fa-circle-check me-2"></i>Maintain
+                                                    confidentiality.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="projects-section" class="ps-3">
+                        <div class="row p-5">
+                            <div class="col-md-12 mb-4">
+                                <h3 class="text-uppercase text-black montserrat fn-500" style="font-size: 4vh">
+                                    projects
+                                </h3>
+                                <div class="bg-secondary" style="height: 0.2vh; width: 10.3vw"></div>
+                            </div>
+                            <div class="col-md-6 pe-2">
+                                <div class="card border-0 rounded shadow overflow-hidden">
+                                    <div class="card-body p-0">
+                                        <h5 class="card-title p-2 bg-black text-white" style="font-size: 3vh">
+                                            Frontend
+                                        </h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and
+                                            make up the bulk of the card's content.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 ps-2">
+                                <div class="card border-0 rounded shadow overflow-hidden">
+                                    <div class="card-body p-0">
+                                        <h5 class="card-title p-2 bg-black text-white" style="font-size: 3vh">
+                                            Backend
+                                        </h5>
+                                        <p class="card-text">
+                                            Some quick example text to build on the card title and
+                                            make up the bulk of the card's content.
+                                        </p>
+                                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-md-6 pe-5 position-relative">
-                  <div class="d-flex justify-content-end align-items-center">
-                    <a
-                      href="mailto:jeetnath2110@gmail.com"
-                      class="text-black me-3 fn-500"
-                      style="font-size: 2vh"
-                      ><i class="fa-solid fa-envelope-open me-2"></i>Email:
-                      jeetnath2110@gmail.com</a
-                    >
-                    <a
-                      href="tel:+91 9163715179"
-                      class="text-black fn-500"
-                      style="font-size: 2vh"
-                      ><i class="fa-solid fa-mobile-screen me-2"></i>Call: +91
-                      9163715179</a
-                    >
-                  </div>
-                  <div
-                    class="d-flex justify-content-center align-items-center"
-                    style="margin-top: 15vh"
-                  >
-                    <img
-                      src="images/freepik__background__1833.png"
-                      alt="content-image"
-                      class="content-image rounded-circle p-3"
-                    />
-                  </div>
-                </div>
-              </div>
             </div>
-            <div id="skills-section" class="ps-3">
-              <div class="row p-5 align-items-center">
-                <div class="col-md-12" style="margin-bottom: 3vh">
-                  <h3
-                    class="text-uppercase text-black montserrat fn-500"
-                    style="font-size: 4vh"
-                  >
-                    skills
-                  </h3>
-                  <div
-                    class="bg-secondary"
-                    style="height: 0.2vh; width: 6.8vw"
-                  ></div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card me-3 rounded shadow border-0">
-                    <div class="card-body">
-                      <h5
-                        class="text-capitalize mb-3 fw-bold"
-                        style="font-size: 2.8vh"
-                      >
-                        frontend:
-                      </h5>
-                      <h5
-                        class="text-capitalize mt-2 mb-3"
-                        style="font-size: 2.5vh"
-                      >
-                        Html, css, javascript, jquery, bootstrap, react(basic),
-                        material design
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card me-3 rounded shadow border-0">
-                    <div class="card-body">
-                      <h5
-                        class="text-capitalize mb-3 fw-bold"
-                        style="font-size: 2.8vh"
-                      >
-                        backend:
-                      </h5>
-                      <h5
-                        class="text-capitalize mt-2 mb-3"
-                        style="font-size: 2.5vh"
-                      >
-                        PHP, laravel & wordpress development <br />(theme &
-                        plugin development)
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card rounded shadow border-0">
-                    <div class="card-body">
-                      <h5
-                        class="text-capitalize mb-3 fw-bold"
-                        style="font-size: 2.8vh"
-                      >
-                        database:
-                      </h5>
-                      <h5
-                        class="text-capitalize mt-2 mb-3"
-                        style="font-size: 2.5vh"
-                      >
-                        sql database <br />(mysql)
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="card mt-3 rounded shadow border-0 py-2">
-                    <div class="card-body">
-                      <h5
-                        class="text-capitalize mb-3 fw-bold"
-                        style="font-size: 2.8vh"
-                      >
-                        additional tools & Technologies:
-                      </h5>
-                      <h5
-                        class="text-capitalize mt-2 mb-3"
-                        style="font-size: 2.5vh"
-                      >
-                        ajax, OOPS, REST API, Json, dynamic programming,
-                        wordpress (elementor, woocomerce & divi)
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="card mt-3 rounded shadow border-0 py-2">
-                    <div class="card-body">
-                      <h5
-                        class="text-capitalize mb-3 fw-bold"
-                        style="font-size: 2.8vh"
-                      >
-                        certifications:
-                      </h5>
-                      <h5 class="my-2" style="font-size: 2.5vh">
-                        Introduction to backend development<a
-                          href="https://www.coursera.org/account/accomplishments/verify/8EU3Q9X69CQP?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"
-                          target="_blank"
-                          class="ms-2"
-                          ><i class="fa-solid fa-link"></i
-                        ></a>
-                      </h5>
-                      <h5 class="my-2" style="font-size: 2.5vh">
-                        The complete web developer course 3.0<a
-                          href="https://www.coursera.org/account/accomplishments/verify/8EU3Q9X69CQP?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse"
-                          target="_blank"
-                          class="ms-2"
-                          ><i class="fa-solid fa-link"></i
-                        ></a>
-                      </h5>
-                      <h5 class="my-2" style="font-size: 2.5vh">
-                        Amazon junior software developer course<a
-                          href=""
-                          class="ms-2"
-                          ><i class="fa-solid fa-link"></i
-                        ></a>
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="card mt-3 rounded shadow border-0 py-2">
-                    <div class="card-body">
-                      <h5
-                        class="text-capitalize mb-3 fw-bold"
-                        style="font-size: 2.8vh"
-                      >
-                        more about me:
-                      </h5>
-                      <h5 class="mt-2 mb-3" style="font-size: 2.5vh">
-                        I’m passionate about building responsive, user-friendly
-                        web applications and always looking for opportunities to
-                        grow my skills. If you’re looking for a motivated
-                        developer with a strong foundation and a willingness to
-                        learn, I’d love to connect and discuss how I can
-                        contribute to your team.
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="experience-section" class="ps-3">
-              <div class="row p-5">
-                <div class="col-md-12 mb-4">
-                  <h3
-                    class="text-uppercase text-black montserrat fn-500"
-                    style="font-size: 4vh"
-                  >
-                    experiences
-                  </h3>
-                  <div
-                    class="bg-secondary"
-                    style="height: 0.2vh; width: 14vw"
-                  ></div>
-                </div>
-                <div class="col-md-6 pe-3 pb-3 mt-3">
-                  <div class="card rounded shadow border-0">
-                    <div class="card-body">
-                      <h2
-                        class="text-capitalize fw-bold text-black"
-                        style="font-size: 3vh"
-                      >
-                        junior web developer
-                      </h2>
-                      <div
-                        class="d-flex justify-content-between align-items-center"
-                      >
-                        <p
-                          class="text-capitalize fn-500 text-black"
-                          style="font-size: 2vh"
-                        >
-                          DIGITYX Incorporated
-                        </p>
-                        <p class="text-capitalize" style="font-size: 2vh">
-                          Oct 2024 - Present
-                        </p>
-                      </div>
-                      <div class="mt-3">
-                        <ul class="ps-0">
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Design and develop responsive web applications.
-                          </li>
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Develop responsive navigation systems.
-                          </li>
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Maintain and update existing codebase.
-                          </li>
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Collaborate with product and support teams.
-                          </li>
-                          <li
-                            class="text-capitalize"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Refactor outdated code.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 pe-3 mt-3">
-                  <div class="card rounded shadow border-0">
-                    <div class="card-body">
-                      <h2
-                        class="text-capitalize fw-bold text-black"
-                        style="font-size: 3vh"
-                      >
-                        frontend developer intern
-                      </h2>
-                      <div
-                        class="d-flex justify-content-between align-items-center"
-                      >
-                        <p
-                          class="text-capitalize fn-500 text-black"
-                          style="font-size: 2vh"
-                        >
-                          DIGITYX Incorporated
-                        </p>
-                        <p class="text-capitalize" style="font-size: 2vh">
-                          May 2024 - Oct 2024
-                        </p>
-                      </div>
-                      <div class="mt-3">
-                        <ul class="ps-0">
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Design and develop responsive websites.
-                          </li>
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Maintain and optimize the frontend base code
-                          </li>
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Collaborate with the design team.
-                          </li>
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Ensure responsive design principles.
-                          </li>
-                          <li
-                            class="text-capitalize"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Ensure the frontend codebase remains up-to-date.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 pe-3">
-                  <div class="card rounded shadow border-0">
-                    <div class="card-body">
-                      <h2
-                        class="text-capitalize fw-bold text-black"
-                        style="font-size: 3vh"
-                      >
-                        administrative executive
-                      </h2>
-                      <div
-                        class="d-flex justify-content-between align-items-center"
-                      >
-                        <p
-                          class="text-capitalize fn-500 text-black"
-                          style="font-size: 2vh"
-                        >
-                          Solution agency
-                        </p>
-                        <p class="text-capitalize" style="font-size: 2vh">
-                          mar 2023 - apr 2024
-                        </p>
-                      </div>
-                      <div class="mt-3">
-                        <ul class="ps-0">
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Ensure the proper filing of sensitive financial
-                            documents.
-                          </li>
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i>Track
-                            and document bank-related transactions.
-                          </li>
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Provide administrative support.
-                          </li>
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Manage office supplies.
-                          </li>
-                          <li
-                            class="text-capitalize"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i>Help
-                            organize office-wide communications.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 pe-3">
-                  <div class="card rounded shadow border-0">
-                    <div class="card-body">
-                      <h2
-                        class="text-capitalize fw-bold text-black"
-                        style="font-size: 3vh"
-                      >
-                        Administrative Assistants
-                      </h2>
-                      <div
-                        class="d-flex justify-content-between align-items-center"
-                      >
-                        <p
-                          class="text-capitalize fn-500 text-black"
-                          style="font-size: 2vh"
-                        >
-                          Solomon advisory
-                        </p>
-                        <p class="text-capitalize" style="font-size: 2vh">
-                          nov 2022 - mar 2023
-                        </p>
-                      </div>
-                      <div class="mt-3">
-                        <ul class="ps-0">
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Provide administrative support.
-                          </li>
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Handle incoming phone calls and emails.
-                          </li>
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Manage office supplies and inventory.
-                          </li>
-                          <li
-                            class="text-capitalize mb-1"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Maintain filing systems.
-                          </li>
-                          <li
-                            class="text-capitalize"
-                            style="font-size: 2vh; list-style: none"
-                          >
-                            <i class="fa-regular fa-circle-check me-2"></i
-                            >Maintain confidentiality.
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div id="projects-section" class="ps-3">
-              <div class="row p-5">
-                <div class="col-md-12 mb-4">
-                  <h3
-                    class="text-uppercase text-black montserrat fn-500"
-                    style="font-size: 4vh"
-                  >
-                    projects
-                  </h3>
-                  <div
-                    class="bg-secondary"
-                    style="height: 0.2vh; width: 10.3vw"
-                  ></div>
-                </div>
-                <div class="col-md-6 pe-2">
-                  <div class="card border-0 rounded shadow overflow-hidden">
-                    <div class="card-body p-0">
-                      <h5
-                        class="card-title p-2 bg-black text-white"
-                        style="font-size: 3vh"
-                      >
-                        Frontend
-                      </h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-6 ps-2">
-                  <div class="card border-0 rounded shadow overflow-hidden">
-                    <div class="card-body p-0">
-                      <h5
-                        class="card-title p-2 bg-black text-white"
-                        style="font-size: 3vh"
-                      >
-                        Backend
-                      </h5>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-      <div class="contact-info">
-        <ul class="px-4 py-3 shadow rounded-start-5">
-          <a
-            class="text-black"
-            href="https://www.linkedin.com/in/itz-jit-nath"
-            target="_blank"
-          >
-            <li style="list-style: none; font-size: 3vh">
-              <i class="fa-brands fa-linkedin"></i>
-            </li>
-          </a>
-          <a class="text-black" href="https://wa.me/9163715179" target="_blank">
-            <li style="list-style: none; font-size: 3vh">
-              <i class="fa-brands fa-whatsapp"></i>
-            </li>
-          </a>
-          <a
-            class="text-black"
-            href="https://www.facebook.com/people/Jeet-Nath/pfbid02cqkyEUmZkzQWULQGSV7hmBsHu1uLedx4vFfRYbE8ah12kNCAKqDH9wdbXiPehSPml/"
-            target="_blank"
-          >
-            <li style="list-style: none; font-size: 3vh">
-              <i class="fa-brands fa-facebook"></i>
-            </li>
-          </a>
-          <a
-            class="text-black"
-            href="https://x.com/Jitnath2023"
-            target="_blank"
-          >
-            <li style="list-style: none; font-size: 3vh">
-              <i class="fa-brands fa-twitter"></i>
-            </li>
-          </a>
-          <a
-            class="text-black"
-            href="https://github.com/Jeet-web2026"
-            target="_blank"
-          >
-            <li style="list-style: none; font-size: 3vh">
-              <i class="fa-brands fa-github"></i>
-            </li>
-          </a>
-        </ul>
-      </div>
+        <div class="contact-info">
+            <ul class="px-4 py-3 shadow rounded-start-5">
+                <a class="text-black" href="https://www.linkedin.com/in/itz-jit-nath" target="_blank">
+                    <li style="list-style: none; font-size: 3vh">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </li>
+                </a>
+                <a class="text-black" href="https://wa.me/9163715179" target="_blank">
+                    <li style="list-style: none; font-size: 3vh">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </li>
+                </a>
+                <a class="text-black"
+                    href="https://www.facebook.com/people/Jeet-Nath/pfbid02cqkyEUmZkzQWULQGSV7hmBsHu1uLedx4vFfRYbE8ah12kNCAKqDH9wdbXiPehSPml/"
+                    target="_blank">
+                    <li style="list-style: none; font-size: 3vh">
+                        <i class="fa-brands fa-facebook"></i>
+                    </li>
+                </a>
+                <a class="text-black" href="https://x.com/Jitnath2023" target="_blank">
+                    <li style="list-style: none; font-size: 3vh">
+                        <i class="fa-brands fa-twitter"></i>
+                    </li>
+                </a>
+                <a class="text-black" href="https://github.com/Jeet-web2026" target="_blank">
+                    <li style="list-style: none; font-size: 3vh">
+                        <i class="fa-brands fa-github"></i>
+                    </li>
+                </a>
+            </ul>
+        </div>
     </main>
 
     <!-- Portfolio - All Js link start -->
 
     <!-- @jquery cdn -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
-      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
     <!-- @chart api -->
-    <script
-      type="text/javascript"
-      src="https://www.gstatic.com/charts/loader.js"
-    ></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
     <!-- @custom js link -->
     <script src="js/main.js"></script>
 
     <!-- Portfolio - All Js link end -->
-  </body>
+</body>
+
 </html>
